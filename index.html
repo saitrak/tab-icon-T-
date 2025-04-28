@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Tool</title>
+  <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/3/36/Emoji_u1f527.svg">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      color: #333;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Simple Tool</h1>
+  <button onclick="showMessage()">Click Me</button>
+
+  <script>
+    function showMessage() {
+      alert('Hello! This is your simple tool.');
+    }
+  </script>
+
+</body>
+</html>
